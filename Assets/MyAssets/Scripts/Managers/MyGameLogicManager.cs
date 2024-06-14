@@ -1,7 +1,7 @@
 using System;
-using UnityEngine;
 
-public class MyGameLogicManager : MonoBehaviour
+// 게임의 논리를 관리하는 클래스
+public class MyGameLogicManager
 {
     // 싱글톤(Singleton) 패턴
     private static MyGameLogicManager instance;

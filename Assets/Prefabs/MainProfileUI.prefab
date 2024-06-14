@@ -360,6 +360,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8783270155246260230}
   - component: {fileID: 1770619308726559372}
+  - component: {fileID: 3037799021888705378}
   m_Layer: 5
   m_Name: MainProfileUI
   m_TagString: Untagged
@@ -398,7 +399,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8783270155246260249}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fc9931aeca0abaf40be76248e1a68a01, type: 3}
   m_Name: 
@@ -406,6 +407,21 @@ MonoBehaviour:
   Image_CharacterIcon: {fileID: 8783270155693503656}
   Text_CharacterName: {fileID: 4763267843004329101}
   Text_CharacterLevel: {fileID: 3991919426516211315}
+--- !u!114 &3037799021888705378
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8783270155246260249}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d818bfcf9aaad849ad7d0daf2ef8a27, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Text_Name: {fileID: 4763267843004329101}
+  Text_Level: {fileID: 3991919426516211315}
+  Image_Icon: {fileID: 8783270155693503656}
 --- !u!1 &8783270155693503658
 GameObject:
   m_ObjectHideFlags: 0
